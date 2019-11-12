@@ -9,21 +9,63 @@
 /* Begin PBXBuildFile section */
 		7766A2302378A35A004BFD0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A22F2378A35A004BFD0C /* AppDelegate.swift */; };
 		7766A2322378A35A004BFD0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2312378A35A004BFD0C /* SceneDelegate.swift */; };
-		7766A2342378A35A004BFD0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2332378A35A004BFD0C /* ViewController.swift */; };
+		7766A2342378A35A004BFD0C /* TeamDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2332378A35A004BFD0C /* TeamDetailsViewController.swift */; };
 		7766A2372378A35A004BFD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7766A2352378A35A004BFD0C /* Main.storyboard */; };
 		7766A2392378A35A004BFD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7766A2382378A35A004BFD0C /* Assets.xcassets */; };
 		7766A23C2378A35A004BFD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7766A23A2378A35A004BFD0C /* LaunchScreen.storyboard */; };
+		7766A2522378A38F004BFD0C /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2442378A38F004BFD0C /* Print.swift */; };
+		7766A2532378A38F004BFD0C /* SideMenuAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2452378A38F004BFD0C /* SideMenuAnimationController.swift */; };
+		7766A2542378A38F004BFD0C /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2462378A38F004BFD0C /* Initializable.swift */; };
+		7766A2552378A38F004BFD0C /* SideMenuInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2472378A38F004BFD0C /* SideMenuInteractionController.swift */; };
+		7766A2562378A38F004BFD0C /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2482378A38F004BFD0C /* Deprecations.swift */; };
+		7766A2572378A38F004BFD0C /* SideMenuPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2492378A38F004BFD0C /* SideMenuPresentationStyle.swift */; };
+		7766A2582378A38F004BFD0C /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A24A2378A38F004BFD0C /* Protected.swift */; };
+		7766A2592378A38F004BFD0C /* SideMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A24B2378A38F004BFD0C /* SideMenuPresentationController.swift */; };
+		7766A25A2378A38F004BFD0C /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A24C2378A38F004BFD0C /* SideMenuManager.swift */; };
+		7766A25B2378A38F004BFD0C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A24D2378A38F004BFD0C /* Extensions.swift */; };
+		7766A25C2378A38F004BFD0C /* SideMenuPushCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A24E2378A38F004BFD0C /* SideMenuPushCoordinator.swift */; };
+		7766A25D2378A38F004BFD0C /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A24F2378A38F004BFD0C /* SideMenuNavigationController.swift */; };
+		7766A25E2378A38F004BFD0C /* SideMenuTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2502378A38F004BFD0C /* SideMenuTransitionController.swift */; };
+		7766A25F2378A38F004BFD0C /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2512378A38F004BFD0C /* UITableViewVibrantCell.swift */; };
+		7766A2612378A3F2004BFD0C /* TeamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2602378A3F2004BFD0C /* TeamListViewController.swift */; };
+		7766A2632378C20E004BFD0C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2622378C20E004BFD0C /* NetworkManager.swift */; };
+		7766A2652378C8F8004BFD0C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2642378C8F8004BFD0C /* DataModel.swift */; };
+		7766A2692378FAC8004BFD0C /* TeamListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766A2682378FAC8004BFD0C /* TeamListTableViewCell.swift */; };
+		77BFE78A237A1F3300883296 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE789237A1F3300883296 /* PlayerDetailsViewController.swift */; };
+		77BFE78E237A4B5E00883296 /* IsoCountries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE78C237A4B5E00883296 /* IsoCountries.swift */; };
+		77BFE78F237A4B5E00883296 /* IsoCountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE78D237A4B5E00883296 /* IsoCountryCodes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7766A22C2378A35A004BFD0C /* NHLBrowse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHLBrowse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7766A22F2378A35A004BFD0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7766A2312378A35A004BFD0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7766A2332378A35A004BFD0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7766A2332378A35A004BFD0C /* TeamDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsViewController.swift; sourceTree = "<group>"; };
 		7766A2362378A35A004BFD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7766A2382378A35A004BFD0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7766A23B2378A35A004BFD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7766A23D2378A35A004BFD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7766A2442378A38F004BFD0C /* Print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
+		7766A2452378A38F004BFD0C /* SideMenuAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuAnimationController.swift; sourceTree = "<group>"; };
+		7766A2462378A38F004BFD0C /* Initializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initializable.swift; sourceTree = "<group>"; };
+		7766A2472378A38F004BFD0C /* SideMenuInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuInteractionController.swift; sourceTree = "<group>"; };
+		7766A2482378A38F004BFD0C /* Deprecations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deprecations.swift; sourceTree = "<group>"; };
+		7766A2492378A38F004BFD0C /* SideMenuPresentationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuPresentationStyle.swift; sourceTree = "<group>"; };
+		7766A24A2378A38F004BFD0C /* Protected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protected.swift; sourceTree = "<group>"; };
+		7766A24B2378A38F004BFD0C /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuPresentationController.swift; sourceTree = "<group>"; };
+		7766A24C2378A38F004BFD0C /* SideMenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuManager.swift; sourceTree = "<group>"; };
+		7766A24D2378A38F004BFD0C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7766A24E2378A38F004BFD0C /* SideMenuPushCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuPushCoordinator.swift; sourceTree = "<group>"; };
+		7766A24F2378A38F004BFD0C /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		7766A2502378A38F004BFD0C /* SideMenuTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTransitionController.swift; sourceTree = "<group>"; };
+		7766A2512378A38F004BFD0C /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		7766A2602378A3F2004BFD0C /* TeamListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewController.swift; sourceTree = "<group>"; };
+		7766A2622378C20E004BFD0C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7766A2642378C8F8004BFD0C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		7766A2682378FAC8004BFD0C /* TeamListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListTableViewCell.swift; sourceTree = "<group>"; };
+		77BFE789237A1F3300883296 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		77BFE78C237A4B5E00883296 /* IsoCountries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsoCountries.swift; sourceTree = "<group>"; };
+		77BFE78D237A4B5E00883296 /* IsoCountryCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsoCountryCodes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +98,52 @@
 		7766A22E2378A35A004BFD0C /* NHLBrowse */ = {
 			isa = PBXGroup;
 			children = (
+				77BFE78B237A4B5E00883296 /* ISOCountryCodes */,
+				7766A2432378A38F004BFD0C /* SideMenu */,
 				7766A22F2378A35A004BFD0C /* AppDelegate.swift */,
 				7766A2312378A35A004BFD0C /* SceneDelegate.swift */,
-				7766A2332378A35A004BFD0C /* ViewController.swift */,
+				7766A2332378A35A004BFD0C /* TeamDetailsViewController.swift */,
+				77BFE789237A1F3300883296 /* PlayerDetailsViewController.swift */,
+				7766A2622378C20E004BFD0C /* NetworkManager.swift */,
+				7766A2642378C8F8004BFD0C /* DataModel.swift */,
+				7766A2602378A3F2004BFD0C /* TeamListViewController.swift */,
+				7766A2682378FAC8004BFD0C /* TeamListTableViewCell.swift */,
 				7766A2352378A35A004BFD0C /* Main.storyboard */,
 				7766A2382378A35A004BFD0C /* Assets.xcassets */,
 				7766A23A2378A35A004BFD0C /* LaunchScreen.storyboard */,
 				7766A23D2378A35A004BFD0C /* Info.plist */,
 			);
 			path = NHLBrowse;
+			sourceTree = "<group>";
+		};
+		7766A2432378A38F004BFD0C /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7766A2442378A38F004BFD0C /* Print.swift */,
+				7766A2452378A38F004BFD0C /* SideMenuAnimationController.swift */,
+				7766A2462378A38F004BFD0C /* Initializable.swift */,
+				7766A2472378A38F004BFD0C /* SideMenuInteractionController.swift */,
+				7766A2482378A38F004BFD0C /* Deprecations.swift */,
+				7766A2492378A38F004BFD0C /* SideMenuPresentationStyle.swift */,
+				7766A24A2378A38F004BFD0C /* Protected.swift */,
+				7766A24B2378A38F004BFD0C /* SideMenuPresentationController.swift */,
+				7766A24C2378A38F004BFD0C /* SideMenuManager.swift */,
+				7766A24D2378A38F004BFD0C /* Extensions.swift */,
+				7766A24E2378A38F004BFD0C /* SideMenuPushCoordinator.swift */,
+				7766A24F2378A38F004BFD0C /* SideMenuNavigationController.swift */,
+				7766A2502378A38F004BFD0C /* SideMenuTransitionController.swift */,
+				7766A2512378A38F004BFD0C /* UITableViewVibrantCell.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		77BFE78B237A4B5E00883296 /* ISOCountryCodes */ = {
+			isa = PBXGroup;
+			children = (
+				77BFE78C237A4B5E00883296 /* IsoCountries.swift */,
+				77BFE78D237A4B5E00883296 /* IsoCountryCodes.swift */,
+			);
+			path = ISOCountryCodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +217,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7766A2342378A35A004BFD0C /* ViewController.swift in Sources */,
+				7766A2632378C20E004BFD0C /* NetworkManager.swift in Sources */,
+				7766A2692378FAC8004BFD0C /* TeamListTableViewCell.swift in Sources */,
+				7766A2592378A38F004BFD0C /* SideMenuPresentationController.swift in Sources */,
+				7766A25A2378A38F004BFD0C /* SideMenuManager.swift in Sources */,
+				7766A2582378A38F004BFD0C /* Protected.swift in Sources */,
+				77BFE78F237A4B5E00883296 /* IsoCountryCodes.swift in Sources */,
+				7766A2342378A35A004BFD0C /* TeamDetailsViewController.swift in Sources */,
+				7766A2652378C8F8004BFD0C /* DataModel.swift in Sources */,
+				7766A25F2378A38F004BFD0C /* UITableViewVibrantCell.swift in Sources */,
+				77BFE78E237A4B5E00883296 /* IsoCountries.swift in Sources */,
+				7766A2542378A38F004BFD0C /* Initializable.swift in Sources */,
+				7766A2572378A38F004BFD0C /* SideMenuPresentationStyle.swift in Sources */,
 				7766A2302378A35A004BFD0C /* AppDelegate.swift in Sources */,
+				7766A2532378A38F004BFD0C /* SideMenuAnimationController.swift in Sources */,
+				7766A25B2378A38F004BFD0C /* Extensions.swift in Sources */,
 				7766A2322378A35A004BFD0C /* SceneDelegate.swift in Sources */,
+				77BFE78A237A1F3300883296 /* PlayerDetailsViewController.swift in Sources */,
+				7766A25C2378A38F004BFD0C /* SideMenuPushCoordinator.swift in Sources */,
+				7766A2522378A38F004BFD0C /* Print.swift in Sources */,
+				7766A2562378A38F004BFD0C /* Deprecations.swift in Sources */,
+				7766A25D2378A38F004BFD0C /* SideMenuNavigationController.swift in Sources */,
+				7766A25E2378A38F004BFD0C /* SideMenuTransitionController.swift in Sources */,
+				7766A2552378A38F004BFD0C /* SideMenuInteractionController.swift in Sources */,
+				7766A2612378A3F2004BFD0C /* TeamListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
